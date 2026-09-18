@@ -1,4 +1,25 @@
-# 部署指南：随时随地访问 FitMate（免费方案）
+# 部署指南：随时随地访问 FitMate
+
+## ✅ 已采用：腾讯 EdgeOne Pages（国内直连，推荐）
+
+> Cloudflare Worker 的 workers.dev 域名在国内被封锁，故改用腾讯 EdgeOne Pages。
+> 前端 + AI 代理部署在同一站点，同域名无跨域问题，且连接 GitHub 仓库后每次更新自动重新部署。
+
+1. 注册腾讯云账号并完成实名认证（个人认证免费）。
+2. 打开 [EdgeOne Pages 控制台](https://console.cloud.tencent.com/edgeone/pages) → **创建项目** → 选择 **从 GitHub 导入**，授权并选择仓库 `gary976/fitmate`，分支 `main`。
+3. 构建设置：框架预设选「无/静态」，其余默认，点开始部署。
+4. 部署完成后得到默认域名（形如 `https://fitmate-xxx.edgeone.app`），这就是 App 的正式地址。
+5. 手机打开该地址 → 添加到主屏幕；「我的 → 设置」里：
+   - **API 地址**：`https://你的edgeone域名/api`
+   - **API Key**：填火山方舟 Key（也可在 EdgeOne 项目设置→环境变量里配置 `ARK_API_KEY`，然后 Key 留空）
+
+可选：在项目设置里绑定自己的域名。
+
+---
+
+## 方案一（备用）：GitHub Pages + Cloudflare Worker
+
+
 
 目标：把 FitMate 发布到互联网，手机用流量/任何 Wi-Fi 都能打开，不再依赖和电脑同一网络。
 
