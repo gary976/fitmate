@@ -15,7 +15,7 @@ export async function renderSettings(view) {
       <div class="form-row"><label>API 地址</label><input id="s-url" value="${esc(s.baseUrl)}"></div>
       <div class="small">
         ① 局域网：电脑运行 <b>node tools/serve.mjs --proxy</b>，地址改 http://电脑IP:8787/v3<br>
-        ② 随时随地：用云端代理（部署见 docs/deploy.md），地址改 https://你的名字.workers.dev/v3，此时 API Key 可留空（已存在云端更安全）
+        ② 随时随地：用云端代理（腾讯云函数，部署见 docs/deploy.md），地址改 https://xxxx.tencentscf.com，此时 API Key 可留空（已存在云端更安全）
       </div>
     </div>
     <div class="card">
