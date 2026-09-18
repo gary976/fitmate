@@ -1,0 +1,15 @@
+{
+  "name": "FitMate 健身助手",
+  "short_name": "FitMate",
+  "description": "拍照识别健身器械、训练计划推荐、B站教学视频、AI 健身问答与饮食记录",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f6f9",
+  "theme_color": "#ff5a3c",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/icon-maskable.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}

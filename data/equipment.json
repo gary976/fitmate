@@ -1,0 +1,1639 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-18",
+  "muscleGroups": [
+    {
+      "id": "chest",
+      "name": "胸"
+    },
+    {
+      "id": "back",
+      "name": "背"
+    },
+    {
+      "id": "shoulders",
+      "name": "肩"
+    },
+    {
+      "id": "arms",
+      "name": "手臂"
+    },
+    {
+      "id": "legs",
+      "name": "腿"
+    },
+    {
+      "id": "glutes",
+      "name": "臀"
+    },
+    {
+      "id": "core",
+      "name": "核心"
+    },
+    {
+      "id": "cardio",
+      "name": "有氧"
+    }
+  ],
+  "equipment": [
+    {
+      "id": "bench-press",
+      "name": "平板杠铃卧推架",
+      "aliases": [
+        "卧推架",
+        "平板卧推",
+        "Bench Press"
+      ],
+      "muscleGroups": [
+        "chest"
+      ],
+      "secondaryGroups": [
+        "shoulders",
+        "arms"
+      ],
+      "tags": [
+        "compound",
+        "free-weight"
+      ],
+      "recognitionHints": [
+        "水平长凳配杠铃架，架上有 J 型挂钩放杠铃"
+      ],
+      "notes": [
+        "新手建议先用空杆练习动作轨迹",
+        "大重量时务必请人保护（辅助）"
+      ],
+      "movements": [
+        {
+          "id": "barbell-bench-press",
+          "name": "杠铃平板卧推",
+          "sets": "3-4",
+          "reps": "6-10",
+          "restSec": 120,
+          "keyPoints": [
+            "肩胛骨后收下沉贴紧凳面",
+            "双脚踩实地面，臀部不离开凳子",
+            "杠铃下放到胸口中部，小臂垂直地面",
+            "推起时呼气，肘部微屈不完全锁死"
+          ],
+          "cautions": [
+            "手腕过度后折会痛——让杠铃压在前臂正上方",
+            "不要把杠铃砸向胸口，下降要控制",
+            "大重量一定要有保护人或使用安全销"
+          ],
+          "video": {
+            "bvid": "BV1bJNPz9ELB",
+            "title": "卧推 保姆级教学",
+            "page": 1,
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "incline-bench",
+      "name": "上斜卧推架",
+      "aliases": [
+        "上斜凳",
+        "上斜推",
+        "Incline Press"
+      ],
+      "muscleGroups": [
+        "chest"
+      ],
+      "secondaryGroups": [
+        "shoulders"
+      ],
+      "tags": [
+        "compound",
+        "free-weight"
+      ],
+      "recognitionHints": [
+        "凳面倾斜约30-45度的卧推架"
+      ],
+      "notes": [
+        "上斜角度越大，肩部参与越多"
+      ],
+      "movements": [
+        {
+          "id": "incline-press",
+          "name": "上斜卧推（杠铃/哑铃）",
+          "sets": "3-4",
+          "reps": "8-12",
+          "restSec": 90,
+          "keyPoints": [
+            "凳面调至30-40度",
+            "背部贴紧凳面，肩胛下沉",
+            "杠铃/哑铃下降到上胸位置",
+            "推起时想象把胸上部夹紧"
+          ],
+          "cautions": [
+            "角度过高会变成肩推，刺激不到胸",
+            "哑铃版下放不要过深，避免肩部拉伤"
+          ],
+          "video": {
+            "bvid": "BV1XX4y117gF",
+            "title": "上斜杠铃卧推",
+            "page": 1,
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "chest-press-machine",
+      "name": "坐姿推胸机",
+      "aliases": [
+        "推胸器",
+        "坐姿推胸",
+        "Chest Press"
+      ],
+      "muscleGroups": [
+        "chest"
+      ],
+      "secondaryGroups": [
+        "shoulders",
+        "arms"
+      ],
+      "tags": [
+        "compound",
+        "fixed-machine"
+      ],
+      "recognitionHints": [
+        "带靠背座椅，双手握把水平向前推，多有配重块插销"
+      ],
+      "notes": [
+        "新手友好，容易找到胸的发力感"
+      ],
+      "movements": [
+        {
+          "id": "seated-chest-press",
+          "name": "坐姿推胸",
+          "sets": "3-4",
+          "reps": "8-12",
+          "restSec": 90,
+          "keyPoints": [
+            "背部和头部贴紧靠垫",
+            "座椅高度调至把手与胸口中部齐平",
+            "推出时呼气，肘部接近伸直但不锁死",
+            "回放时控制速度，感受胸部被拉伸"
+          ],
+          "cautions": [
+            "耸肩借力是常见错误，保持肩胛下沉",
+            "配重不要一次性加太重，动作变形就减重"
+          ],
+          "video": {
+            "bvid": "",
+            "title": "",
+            "page": 1,
+            "verified": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "pec-deck",
+      "name": "蝴蝶机（夹胸器）",
+      "aliases": [
+        "夹胸器",
+        "飞鸟机",
+        "Pec Deck"
+      ],
+      "muscleGroups": [
+        "chest"
+      ],
+      "secondaryGroups": [],
+      "tags": [
+        "isolation",
+        "fixed-machine"
+      ],
+      "recognitionHints": [
+        "座椅两侧有两个可向中间合拢的弧形把手/臂垫"
+      ],
+      "notes": [
+        "孤立刺激胸中缝的好动作"
+      ],
+      "movements": [
+        {
+          "id": "pec-deck-fly",
+          "name": "坐姿夹胸",
+          "sets": "3-4",
+          "reps": "10-15",
+          "restSec": 60,
+          "keyPoints": [
+            "肩胛贴紧靠背，胸向前挺",
+            "手肘微屈固定角度，用胸的力量向中间合拢",
+            "在中间位置停顿1秒，感受胸肌挤压",
+            "回放缓慢，感受拉伸"
+          ],
+          "cautions": [
+            "重量大了容易耸肩抬肘，用胸练而不是手推",
+            "肩部有伤时减小幅度"
+          ],
+          "video": {
+            "bvid": "BV19x4y147PJ",
+            "title": "蝴蝶机夹胸教学【健身房新手向】",
+            "page": 1,
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "cable-crossover",
+      "name": "龙门架（绳索夹胸）",
+      "aliases": [
+        "龙门架",
+        "大飞鸟",
+        "Cable Crossover"
+      ],
+      "muscleGroups": [
+        "chest"
+      ],
+      "secondaryGroups": [
+        "arms",
+        "shoulders"
+      ],
+      "tags": [
+        "isolation",
+        "cable"
+      ],
+      "recognitionHints": [
+        "两侧高立柱，顶部有可调滑轮和绳索把手，中间开放区域大"
+      ],
+      "notes": [
+        "滑轮高度不同练胸的位置不同：高位练下胸、中位练中胸"
+      ],
+      "movements": [
+        {
+          "id": "cable-fly",
+          "name": "绳索夹胸",
+          "sets": "3-4",
+          "reps": "10-15",
+          "restSec": 60,
+          "keyPoints": [
+            "身体略前倾站稳，肘微屈固定",
+            "想象用手肘抱一棵大树，向中间合拢",
+            "合拢时交叉或并拢停顿，挤压胸肌",
+            "整个过程躯干稳定不晃"
+          ],
+          "cautions": [
+            "不要用二头肌弯举的力量拉",
+            "重量过大身体会被绳索带得前倾变形"
+          ],
+          "video": {
+            "bvid": "BV11D4y1X7nd",
+            "title": "龙门架夹胸教学",
+            "page": 1,
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "dip-station",
+      "name": "双杠臂屈伸架",
+      "aliases": [
+        "双杠",
+        "Dips"
+      ],
+      "muscleGroups": [
+        "chest",
+        "arms"
+      ],
+      "secondaryGroups": [
+        "shoulders"
+      ],
+      "tags": [
+        "compound",
+        "bodyweight"
+      ],
+      "recognitionHints": [
+        "两条平行横杠，高于地面的支撑架"
+      ],
+      "notes": [
+        "身体前倾练下胸，身体竖直练三头"
+      ],
+      "movements": [
+        {
+          "id": "chest-dip",
+          "name": "双杠臂屈伸（练胸版）",
+          "sets": "3",
+          "reps": "8-12",
+          "restSec": 90,
+          "keyPoints": [
+            "身体前倾约30度，屈膝交叠小腿",
+            "下降到上臂与地面平行或略低",
+            "推起时用胸的张力顶起身体"
+          ],
+          "cautions": [
+            "下降过深肩部压力大，量力而行",
+            "肩部有伤史者慎用，可先用器械代替"
+          ],
+          "video": {
+            "bvid": "BV1CQQnBfEJR",
+            "title": "双杠臂屈伸完整教学：动作错误风险解析+安全训练规范",
+            "page": 1,
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "lat-pulldown",
+      "name": "高位下拉机",
+      "aliases": [
+        "下拉机",
+        "高位下拉",
+        "Lat Pulldown"
+      ],
+      "muscleGroups": [
+        "back"
+      ],
+      "secondaryGroups": [
+        "arms"
+      ],
+      "tags": [
+        "compound",
+        "fixed-machine"
+      ],
+      "recognitionHints": [
+        "座椅+大腿固定垫，头顶横杆连接上方滑轮配重"
+      ],
+      "notes": [
+        "引体向上的最佳替代/过渡动作"
+      ],
+      "movements": [
+        {
+          "id": "lat-pulldown-mv",
+          "name": "正握高位下拉",
+          "sets": "3-4",
+          "reps": "8-12",
+          "restSec": 90,
+          "keyPoints": [
+            "握距略宽于肩，胸上挺身体略后倾（15度左右）",
+            "肘部垂直向下拉，想象用肘把杆拉向胸口上部",
+            "拉到锁骨附近停顿，挤压背阔肌",
+            "回放时控制速度，让背阔肌充分拉伸"
+          ],
+          "cautions": [
+            "不要身体大幅后仰借力",
+            "不要用手臂硬拉，肘往下走而不是往后",
+            "拉完后不要突然松手让配重砸回去"
+          ],
+          "video": {
+            "bvid": "BV1w83rzPELH",
+            "title": "练背必练动作：高位下拉动作细节讲解",
+            "page": 1,
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "seated-row",
+      "name": "坐姿划船机",
+      "aliases": [
+        "坐姿划船",
+        "Seated Row"
+      ],
+      "muscleGroups": [
+        "back"
+      ],
+      "secondaryGroups": [
+        "arms"
+      ],
+      "tags": [
+        "compound",
+        "cable"
+      ],
+      "recognitionHints": [
+        "低位滑轮配座椅，脚蹬板在前方，绳索接V把或横杆"
+      ],
+      "notes": [
+        "练背部厚度的核心动作"
+      ],
+      "movements": [
+        {
+          "id": "seated-row-mv",
+          "name": "坐姿绳索划船",
+          "sets": "3-4",
+          "reps": "8-12",
+          "restSec": 90,
+          "keyPoints": [
+            "膝盖微屈，胸部挺起",
+            "把手拉向腹部，肘部贴近身体",
+            "拉到终点时肩胛骨向中间夹紧",
+            "回放时背阔肌随之被拉伸，不要弓背"
+          ],
+          "cautions": [
+            "身体前后大幅摇晃借力是常见错误",
+            "耸肩说明重量过大"
+          ],
+          "video": {
+            "bvid": "BV1di9QYmEY8",
+            "title": "练背：坐姿划船动作讲解-专注背阔肌",
+            "page": 1,
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "pull-up-bar",
+      "name": "引体向上架",
+      "aliases": [
+        "单杠",
+        "引体架",
+        "Pull-up Bar"
+      ],
+      "muscleGroups": [
+        "back"
+      ],
+      "secondaryGroups": [
+        "arms"
+      ],
+      "tags": [
+        "compound",
+        "bodyweight"
+      ],
+      "recognitionHints": [
+        "高位横杠或带助力配重的引体机"
+      ],
+      "notes": [
+        "做不动可用助力引体机或弹力带辅助"
+      ],
+      "movements": [
+        {
+          "id": "pull-up",
+          "name": "引体向上",
+          "sets": "3-4",
+          "reps": "6-10",
+          "restSec": 120,
+          "keyPoints": [
+            "正握略宽于肩，肩胛先下沉再拉",
+            "用肘部向下拉，下巴过杠",
+            "下放到底让背部充分伸展",
+            "全程身体不大幅摆动"
+          ],
+          "cautions": [
+            "不要甩腿借力",
+            "落地要轻，不要跳下伤膝盖"
+          ],
+          "video": {
+            "bvid": "BV1Hy4y1t7AY",
+            "title": "1分钟教你轻松学会标准引体向上，保姆级教程",
+            "page": 1,
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "barbell-row",
+      "name": "杠铃划船",
+      "aliases": [
+        "T杠划船",
+        "俯身划船",
+        "Barbell Row"
+      ],
+      "muscleGroups": [
+        "back"
+      ],
+      "secondaryGroups": [
+        "arms"
+      ],
+      "tags": [
+        "compound",
+        "free-weight"
+      ],
+      "recognitionHints": [
+        "杠铃或T杠，俯身姿态训练"
+      ],
+      "notes": [
+        "对腰背核心要求较高，新手先用轻重量"
+      ],
+      "movements": [
+        {
+          "id": "barbell-row-mv",
+          "name": "俯身杠铃划船",
+          "sets": "3-4",
+          "reps": "8-12",
+          "restSec": 90,
+          "keyPoints": [
+            "屈髋俯身约45度，背部平直",
+            "杠铃拉向肚脐方向",
+            "肘部贴近身体，肩胛后夹",
+            "全程保持俯身角度不变"
+          ],
+          "cautions": [
+            "弓腰是最大危险信号，出现就减重",
+            "不要猛拉猛放，控制离心"
+          ],
+          "video": {
+            "bvid": "BV1JE411d71a",
+            "title": "教你用杠铃划船来练背（详细动作教学）by Jeremy Ethier",
+            "page": 1,
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "back-extension",
+      "name": "山羊挺身（罗马椅）",
+      "aliases": [
+        "罗马椅",
+        "背屈伸",
+        "Back Extension"
+      ],
+      "muscleGroups": [
+        "back",
+        "glutes"
+      ],
+      "secondaryGroups": [],
+      "tags": [
+        "bodyweight",
+        "isolation"
+      ],
+      "recognitionHints": [
+        "45度或水平的人字型垫凳，脚跟固定在下方踏板"
+      ],
+      "notes": [
+        "强化下背与臀部的地基动作"
+      ],
+      "movements": [
+        {
+          "id": "back-extension-mv",
+          "name": "山羊挺身",
+          "sets": "3",
+          "reps": "12-15",
+          "restSec": 60,
+          "keyPoints": [
+            "髋部卡在垫子上沿，脚跟固定",
+            "下放时脊柱缓慢展开，不要自由落体",
+            "起身时用臀和下背发力，身体到一条直线即可"
+          ],
+          "cautions": [
+            "不要过度后仰反弓腰",
+            "不要用手猛推借力"
+          ],
+          "video": {
+            "bvid": "",
+            "title": "",
+            "page": 1,
+            "verified": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "shoulder-press-machine",
+      "name": "坐姿肩推机",
+      "aliases": [
+        "肩推机",
+        "坐姿推肩",
+        "Shoulder Press"
+      ],
+      "muscleGroups": [
+        "shoulders"
+      ],
+      "secondaryGroups": [
+        "arms"
+      ],
+      "tags": [
+        "compound",
+        "fixed-machine"
+      ],
+      "recognitionHints": [
+        "带靠背座椅，把手在肩部两侧向上推的器械"
+      ],
+      "notes": [],
+      "movements": [
+        {
+          "id": "shoulder-press-mv",
+          "name": "坐姿推肩",
+          "sets": "3-4",
+          "reps": "8-12",
+          "restSec": 90,
+          "keyPoints": [
+            "背部贴紧靠垫，核心收紧",
+            "把手在耳朵两侧，向上推至接近伸直",
+            "下放到耳朵高度即可，不必过深"
+          ],
+          "cautions": [
+            "脖子前伸是常见错误",
+            "下放过低会让肩关节压力增大"
+          ],
+          "video": {
+            "bvid": "BV1ym421M7DV",
+            "title": "坐姿哑铃推肩教学【健身房新手向】",
+            "page": 1,
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "dumbbell-lateral-raise",
+      "name": "哑铃侧平举",
+      "aliases": [
+        "侧平举",
+        "侧举",
+        "Lateral Raise"
+      ],
+      "muscleGroups": [
+        "shoulders"
+      ],
+      "secondaryGroups": [],
+      "tags": [
+        "isolation",
+        "free-weight"
+      ],
+      "recognitionHints": [
+        "自由重量区哑铃架，站立训练"
+      ],
+      "notes": [
+        "小重量多次数，感受比重量重要"
+      ],
+      "movements": [
+        {
+          "id": "lateral-raise-mv",
+          "name": "哑铃侧平举",
+          "sets": "3-4",
+          "reps": "12-15",
+          "restSec": 60,
+          "keyPoints": [
+            "肘部微屈固定，想象用肘部带动手臂上抬",
+            "抬到与肩同高即可",
+            "下放要慢，3-4秒",
+            "身体稳定不摇摆"
+          ],
+          "cautions": [
+            "不要耸肩，斜方肌过度参与说明重量过大",
+            "不要甩动哑铃利用惯性"
+          ],
+          "video": {
+            "bvid": "BV14yn1zkEs3",
+            "title": "侧平举秘籍：3个技巧精准打击肩中束",
+            "page": 1,
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "reverse-pec-deck",
+      "name": "反向飞鸟机",
+      "aliases": [
+        "反式蝴蝶机",
+        "后束飞鸟",
+        "Reverse Fly"
+      ],
+      "muscleGroups": [
+        "shoulders"
+      ],
+      "secondaryGroups": [
+        "back"
+      ],
+      "tags": [
+        "isolation",
+        "fixed-machine"
+      ],
+      "recognitionHints": [
+        "与蝴蝶机相似但面向靠垫坐，向两侧后方展开"
+      ],
+      "notes": [
+        "三角肌后束专用动作"
+      ],
+      "movements": [
+        {
+          "id": "reverse-fly-mv",
+          "name": "反向飞鸟",
+          "sets": "3-4",
+          "reps": "12-15",
+          "restSec": 60,
+          "keyPoints": [
+            "胸口贴紧靠垫，手臂微屈",
+            "向两侧后方展开至与肩同高",
+            "终点停顿感受肩后束收缩"
+          ],
+          "cautions": [
+            "重量过大就会耸肩借力",
+            "展开过高（超过肩）肩峰压力增大"
+          ],
+          "video": {
+            "bvid": "BV1By411z7Kp",
+            "title": "蝴蝶机反向飞鸟教学【健身房新手向】",
+            "page": 1,
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "smith-machine",
+      "name": "史密斯机",
+      "aliases": [
+        "史密斯架",
+        "Smith Machine"
+      ],
+      "muscleGroups": [
+        "legs",
+        "chest"
+      ],
+      "secondaryGroups": [],
+      "tags": [
+        "compound",
+        "fixed-barbell"
+      ],
+      "recognitionHints": [
+        "杠铃固定在垂直导轨上，带旋转挂钩"
+      ],
+      "notes": [
+        "轨迹固定，适合新手或无人保护时使用"
+      ],
+      "movements": [
+        {
+          "id": "smith-squat",
+          "name": "史密斯机深蹲",
+          "sets": "3-4",
+          "reps": "8-12",
+          "restSec": 120,
+          "keyPoints": [
+            "杠铃放斜方肌上部（不是脖子上）",
+            "双脚略前于杠铃，下蹲至大腿平行地面",
+            "膝盖与脚尖方向一致",
+            "起身时脚底均匀发力"
+          ],
+          "cautions": [
+            "膝盖内扣是常见错误",
+            "蹲太深而骨盆翻转（眨眼）说明柔韧不足，先减深度"
+          ],
+          "video": {
+            "bvid": "BV1wxn9zZE6N",
+            "title": "史密斯杠铃深蹲：练腿&练臀站姿调整",
+            "page": 1,
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "preacher-curl",
+      "name": "牧师凳弯举",
+      "aliases": [
+        "斜托弯举",
+        "牧师凳",
+        "Preacher Curl"
+      ],
+      "muscleGroups": [
+        "arms"
+      ],
+      "secondaryGroups": [],
+      "tags": [
+        "isolation",
+        "free-weight"
+      ],
+      "recognitionHints": [
+        "带倾斜托板的弯举凳"
+      ],
+      "notes": [
+        "托板限制借力，孤立练二头"
+      ],
+      "movements": [
+        {
+          "id": "preacher-curl-mv",
+          "name": "牧师凳哑铃/曲杆弯举",
+          "sets": "3",
+          "reps": "10-15",
+          "restSec": 60,
+          "keyPoints": [
+            "腋下贴紧托板斜面",
+            "弯举到顶停顿挤压",
+            "下放几乎伸直但保持张力"
+          ],
+          "cautions": [
+            "下放过猛肘关节受冲击",
+            "不要抬起肘部离开托板"
+          ],
+          "video": {
+            "bvid": "BV1aE411278k",
+            "title": "手把手教你牧师凳弯举｜新手手臂教学",
+            "page": 1,
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "cable-pushdown",
+      "name": "龙门架绳索下压",
+      "aliases": [
+        "三头下压",
+        "绳索下压",
+        "Triceps Pushdown"
+      ],
+      "muscleGroups": [
+        "arms"
+      ],
+      "secondaryGroups": [],
+      "tags": [
+        "isolation",
+        "cable"
+      ],
+      "recognitionHints": [
+        "高位滑轮配直杆或V把或绳索把手"
+      ],
+      "notes": [],
+      "movements": [
+        {
+          "id": "pushdown-mv",
+          "name": "绳索三头下压",
+          "sets": "3-4",
+          "reps": "10-15",
+          "restSec": 60,
+          "keyPoints": [
+            "大臂夹紧身体两侧固定",
+            "只有前臂在动，下压至手臂接近伸直",
+            "终点用力收缩三头1秒",
+            "回放时控制速度"
+          ],
+          "cautions": [
+            "身体前倾用体重下压是借力",
+            "肘部外飘会让动作变成推胸"
+          ],
+          "video": {
+            "bvid": "BV1fjMyzZEt5",
+            "title": "肱三头肌绳索下压｜手臂训练必学动作（保姆级教程）",
+            "page": 1,
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "tricep-extension-machine",
+      "name": "三头屈伸机",
+      "aliases": [
+        "臂屈伸机",
+        "Overhead Extension"
+      ],
+      "muscleGroups": [
+        "arms"
+      ],
+      "secondaryGroups": [],
+      "tags": [
+        "isolation",
+        "fixed-machine"
+      ],
+      "recognitionHints": [
+        "坐姿器械，双手在头顶或体侧向上顶起把手"
+      ],
+      "notes": [],
+      "movements": [
+        {
+          "id": "overhead-extension-mv",
+          "name": "坐姿三头屈伸",
+          "sets": "3",
+          "reps": "10-15",
+          "restSec": 60,
+          "keyPoints": [
+            "肘部朝前指向天花板，间距与肩同宽",
+            "向上顶到接近伸直，停顿收缩",
+            "下放至后脑附近"
+          ],
+          "cautions": [
+            "肘部不要向两侧打开",
+            "有肘部旧伤时减小幅度"
+          ],
+          "video": {
+            "bvid": "",
+            "title": "",
+            "page": 1,
+            "verified": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "squat-rack",
+      "name": "深蹲架",
+      "aliases": [
+        "深蹲架",
+        "Squat Rack",
+        "深蹲框"
+      ],
+      "muscleGroups": [
+        "legs"
+      ],
+      "secondaryGroups": [
+        "glutes",
+        "core"
+      ],
+      "tags": [
+        "compound",
+        "free-weight"
+      ],
+      "recognitionHints": [
+        "立柱带J钩和安全销的杠铃架"
+      ],
+      "notes": [
+        "动作之王，新手从空杆学起"
+      ],
+      "movements": [
+        {
+          "id": "barbell-squat",
+          "name": "杠铃深蹲",
+          "sets": "3-4",
+          "reps": "6-10",
+          "restSec": 150,
+          "keyPoints": [
+            "杠铃放斜方肌上，双手握稳收紧肩胛",
+            "双脚与肩同宽略外八，吸气收紧核心",
+            "屈髋下蹲，膝盖与脚尖同向，至大腿平行或更低",
+            "起身时臀部与肩同时上移，重心在足中"
+          ],
+          "cautions": [
+            "膝盖内扣必须纠正，否则伤膝",
+            "弓腰或过度前倾说明核心弱或重量过大",
+            "务必设置安全销或有人保护"
+          ],
+          "video": {
+            "bvid": "BV1VGTx61ELP",
+            "title": "保姆级杠铃深蹲教学｜新手一次学会不废腰",
+            "page": 1,
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "leg-press",
+      "name": "倒蹬机（腿举）",
+      "aliases": [
+        "倒蹬",
+        "腿举机",
+        "Leg Press"
+      ],
+      "muscleGroups": [
+        "legs"
+      ],
+      "secondaryGroups": [
+        "glutes"
+      ],
+      "tags": [
+        "compound",
+        "fixed-machine"
+      ],
+      "recognitionHints": [
+        "45度斜躺座椅，双脚蹬上方配重滑板"
+      ],
+      "notes": [],
+      "movements": [
+        {
+          "id": "leg-press-mv",
+          "name": "腿举",
+          "sets": "3-4",
+          "reps": "10-15",
+          "restSec": 120,
+          "keyPoints": [
+            "全脚掌踩踏板，与肩同宽",
+            "下放至膝盖约90度，臀部不离开座椅",
+            "蹬起时膝盖不完全锁死",
+            "腰部全程贴紧靠垫"
+          ],
+          "cautions": [
+            "臀部抬起（骨盆卷起）会伤腰，减小幅度",
+            "不要用手撑膝盖",
+            "蹬直时不要锁膝悬停"
+          ],
+          "video": {
+            "bvid": "BV1Ec411d77N",
+            "title": "倒蹬机腿部训练教学",
+            "page": 1,
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "hack-squat",
+      "name": "哈克深蹲机",
+      "aliases": [
+        "哈克机",
+        "Hack Squat"
+      ],
+      "muscleGroups": [
+        "legs"
+      ],
+      "secondaryGroups": [
+        "glutes"
+      ],
+      "tags": [
+        "compound",
+        "fixed-machine"
+      ],
+      "recognitionHints": [
+        "斜躺式轨道深蹲机，肩部有垫，脚踩前下方踏板"
+      ],
+      "notes": [],
+      "movements": [
+        {
+          "id": "hack-squat-mv",
+          "name": "哈克深蹲",
+          "sets": "3-4",
+          "reps": "8-12",
+          "restSec": 120,
+          "keyPoints": [
+            "肩背贴紧垫子，脚位中等偏下",
+            "下蹲至大腿平行，膝盖与脚尖同向",
+            "蹬起不锁膝"
+          ],
+          "cautions": [
+            "重量过大时下背容易离开靠垫",
+            "下蹲速度不要失控"
+          ],
+          "video": {
+            "bvid": "",
+            "title": "",
+            "page": 1,
+            "verified": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "leg-extension",
+      "name": "腿屈伸机",
+      "aliases": [
+        "腿屈伸",
+        "Leg Extension"
+      ],
+      "muscleGroups": [
+        "legs"
+      ],
+      "secondaryGroups": [],
+      "tags": [
+        "isolation",
+        "fixed-machine"
+      ],
+      "recognitionHints": [
+        "坐姿，脚背垫在滚轴垫后，向上伸直腿"
+      ],
+      "notes": [
+        "股四头肌孤立动作"
+      ],
+      "movements": [
+        {
+          "id": "leg-extension-mv",
+          "name": "坐姿腿屈伸",
+          "sets": "3",
+          "reps": "12-15",
+          "restSec": 60,
+          "keyPoints": [
+            "背贴靠垫，手抓把手稳住身体",
+            "向上踢至腿接近伸直，停顿1秒",
+            "缓慢回放不到底保持张力"
+          ],
+          "cautions": [
+            "重量过大膝盖末端容易受压疼痛，出现痛感应减重或停做",
+            "不要靠上身后仰甩腿"
+          ],
+          "video": {
+            "bvid": "BV1F7KFzYEwE",
+            "title": "练腿：做坐姿腿屈伸的关键要点",
+            "page": 1,
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "leg-curl",
+      "name": "腿弯举机",
+      "aliases": [
+        "俯卧腿弯举",
+        "坐姿腿弯举",
+        "Leg Curl"
+      ],
+      "muscleGroups": [
+        "legs"
+      ],
+      "secondaryGroups": [
+        "glutes"
+      ],
+      "tags": [
+        "isolation",
+        "fixed-machine"
+      ],
+      "recognitionHints": [
+        "俯卧或坐姿，滚轴垫压在脚踝后，向后勾腿"
+      ],
+      "notes": [
+        "腘绳肌（大腿后侧）专属"
+      ],
+      "movements": [
+        {
+          "id": "leg-curl-mv",
+          "name": "腿弯举",
+          "sets": "3",
+          "reps": "10-15",
+          "restSec": 60,
+          "keyPoints": [
+            "髋部贴紧垫面，脚踝勾住滚轴",
+            "屈膝把垫子拉向臀部，顶点停顿",
+            "缓慢伸回"
+          ],
+          "cautions": [
+            "髋部抬起借力会减效且伤腰",
+            "动作末端不要突然泄力"
+          ],
+          "video": {
+            "bvid": "BV1o3NJz5EiK",
+            "title": "俯卧腿弯举：女生想臀腿好看一定要练这个",
+            "page": 1,
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "calf-raise",
+      "name": "站姿提踵机",
+      "aliases": [
+        "提踵机",
+        "Calf Raise"
+      ],
+      "muscleGroups": [
+        "legs"
+      ],
+      "secondaryGroups": [],
+      "tags": [
+        "isolation",
+        "fixed-machine"
+      ],
+      "recognitionHints": [
+        "肩垫站踏板，前脚掌踩踏板边缘踮脚"
+      ],
+      "notes": [
+        "小腿恢复快，可以高频次练"
+      ],
+      "movements": [
+        {
+          "id": "calf-raise-mv",
+          "name": "站姿提踵",
+          "sets": "3-4",
+          "reps": "12-20",
+          "restSec": 45,
+          "keyPoints": [
+            "前脚掌踩实踏板，脚跟下沉到最低充分拉伸",
+            "踮起到最高点停顿2秒",
+            "膝盖保持伸直但不锁死"
+          ],
+          "cautions": [
+            "幅度不足（半程）是普遍问题，要用满活动度",
+            "弹震式快速起落无效果"
+          ],
+          "video": {
+            "bvid": "",
+            "title": "",
+            "page": 1,
+            "verified": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "hip-thrust",
+      "name": "臀推机（髋推）",
+      "aliases": [
+        "臀推",
+        "髋推",
+        "Hip Thrust"
+      ],
+      "muscleGroups": [
+        "glutes"
+      ],
+      "secondaryGroups": [
+        "legs"
+      ],
+      "tags": [
+        "compound",
+        "free-weight"
+      ],
+      "recognitionHints": [
+        "肩靠垫背对长凳或专用臀推机，髋部负杠铃片"
+      ],
+      "notes": [
+        "翘臀王牌动作"
+      ],
+      "movements": [
+        {
+          "id": "hip-thrust-mv",
+          "name": "杠铃/器械臀推",
+          "sets": "3-4",
+          "reps": "8-12",
+          "restSec": 90,
+          "keyPoints": [
+            "肩胛上背靠稳凳沿，双脚踩实与肩同宽",
+            "下巴微收，用臀发力顶起髋部",
+            "顶点身体水平，臀肌挤压2秒",
+            "下放臀不落地保持张力"
+          ],
+          "cautions": [
+            "过度反弓腰代替臀发力是常见错误",
+            "双脚太远会变成腘绳肌主导"
+          ],
+          "video": {
+            "bvid": "BV1n87g65Ep3",
+            "title": "臀推 保姆级教程",
+            "page": 1,
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "cable-kickback",
+      "name": "龙门架绳索后踢腿",
+      "aliases": [
+        "绳索后踢",
+        "Glute Kickback"
+      ],
+      "muscleGroups": [
+        "glutes"
+      ],
+      "secondaryGroups": [],
+      "tags": [
+        "isolation",
+        "cable"
+      ],
+      "recognitionHints": [
+        "低位滑轮配脚踝绑带"
+      ],
+      "notes": [],
+      "movements": [
+        {
+          "id": "kickback-mv",
+          "name": "绳索后踢腿",
+          "sets": "3",
+          "reps": "12-15",
+          "restSec": 45,
+          "keyPoints": [
+            "脚踝绑带，扶稳支架身体略前倾",
+            "单腿向后上方蹬伸，用臀发力",
+            "顶点停顿，感受臀部收缩",
+            "躯干稳定不要转腰"
+          ],
+          "cautions": [
+            "幅度过大导致腰反弓就减重量",
+            "不要甩腿利用惯性"
+          ],
+          "video": {
+            "bvid": "",
+            "title": "",
+            "page": 1,
+            "verified": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "hip-abduction",
+      "name": "髋外展/内收机",
+      "aliases": [
+        "夹腿机",
+        "外展机",
+        "Hip Abduction"
+      ],
+      "muscleGroups": [
+        "glutes"
+      ],
+      "secondaryGroups": [
+        "legs"
+      ],
+      "tags": [
+        "isolation",
+        "fixed-machine"
+      ],
+      "recognitionHints": [
+        "坐姿双腿分合训练器，膝盖内侧或外侧垫板"
+      ],
+      "notes": [],
+      "movements": [
+        {
+          "id": "abduction-mv",
+          "name": "坐姿髋外展",
+          "sets": "3",
+          "reps": "12-15",
+          "restSec": 45,
+          "keyPoints": [
+            "上身直立或略前倾（前倾更偏臀上部）",
+            "双腿向外打开至最大幅度停顿",
+            "缓慢回收到接近并拢"
+          ],
+          "cautions": [
+            "不要用猛力甩开腿",
+            "回放时配重片不要完全落座"
+          ],
+          "video": {
+            "bvid": "",
+            "title": "",
+            "page": 1,
+            "verified": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ab-wheel",
+      "name": "健腹轮",
+      "aliases": [
+        "腹肌轮",
+        "Ab Wheel"
+      ],
+      "muscleGroups": [
+        "core"
+      ],
+      "secondaryGroups": [
+        "back"
+      ],
+      "tags": [
+        "bodyweight",
+        "compound"
+      ],
+      "recognitionHints": [
+        "单轮或双轮带握把的小轮子"
+      ],
+      "notes": [
+        "进阶核心动作，新手可先跪姿小幅"
+      ],
+      "movements": [
+        {
+          "id": "ab-wheel-mv",
+          "name": "跪姿健腹轮",
+          "sets": "3",
+          "reps": "8-12",
+          "restSec": 60,
+          "keyPoints": [
+            "跪垫上，双手握轮在肩下方",
+            "收紧腹臀，缓慢前推轮子",
+            "推出到能控制的极限（背不塌）",
+            "用腹肌力量把身体拉回来"
+          ],
+          "cautions": [
+            "腰部下塌是绝对禁止的，会伤腰",
+            "推出距离量力而行，循序渐进"
+          ],
+          "video": {
+            "bvid": "BV1huWMzQE1F",
+            "title": "健腹轮正确使用方法：新手从跪姿开始",
+            "page": 1,
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "hanging-leg-raise",
+      "name": "悬垂举腿架",
+      "aliases": [
+        "举腿架",
+        "Captain's Chair",
+        "悬垂举腿"
+      ],
+      "muscleGroups": [
+        "core"
+      ],
+      "secondaryGroups": [
+        "back"
+      ],
+      "tags": [
+        "bodyweight",
+        "isolation"
+      ],
+      "recognitionHints": [
+        "悬垂横杠或带靠背扶手的举腿椅"
+      ],
+      "notes": [],
+      "movements": [
+        {
+          "id": "leg-raise-mv",
+          "name": "悬垂举腿",
+          "sets": "3",
+          "reps": "10-15",
+          "restSec": 60,
+          "keyPoints": [
+            "肩胛下沉稳住身体，不晃",
+            "用下腹卷起骨盆把腿抬起",
+            "抬到与地面平行或更高，缓慢下放"
+          ],
+          "cautions": [
+            "身体大幅摆动借力无效",
+            "下放过快会拉伤下背"
+          ],
+          "video": {
+            "bvid": "",
+            "title": "",
+            "page": 1,
+            "verified": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "cable-crunch",
+      "name": "龙门架绳索卷腹",
+      "aliases": [
+        "跪姿卷腹",
+        "Cable Crunch"
+      ],
+      "muscleGroups": [
+        "core"
+      ],
+      "secondaryGroups": [],
+      "tags": [
+        "isolation",
+        "cable"
+      ],
+      "recognitionHints": [
+        "高位滑轮配绳索，跪姿向下卷腹"
+      ],
+      "notes": [
+        "少数可以渐进负重的腹肌动作"
+      ],
+      "movements": [
+        {
+          "id": "cable-crunch-mv",
+          "name": "跪姿绳索卷腹",
+          "sets": "3",
+          "reps": "12-15",
+          "restSec": 45,
+          "keyPoints": [
+            "跪地，绳索握在头两侧",
+            "髋部固定，用腹肌把肋骨向骨盆卷",
+            "下卷时呼气，顶点停顿",
+            "缓慢还原到脊柱舒展"
+          ],
+          "cautions": [
+            "用髋部屈伸代替卷腹是常见错误",
+            "不要用手臂下压"
+          ],
+          "video": {
+            "bvid": "",
+            "title": "",
+            "page": 1,
+            "verified": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "treadmill",
+      "name": "跑步机",
+      "aliases": [
+        "跑台",
+        "Treadmill"
+      ],
+      "muscleGroups": [
+        "cardio"
+      ],
+      "secondaryGroups": [
+        "legs"
+      ],
+      "tags": [
+        "cardio"
+      ],
+      "recognitionHints": [
+        "带传送带和扶手的电动跑步平台"
+      ],
+      "notes": [
+        "减脂建议：坡度快走30分钟比慢跑更容易坚持"
+      ],
+      "movements": [
+        {
+          "id": "treadmill-walk",
+          "name": "坡度快走 / 慢跑",
+          "sets": "1",
+          "reps": "20-40分钟",
+          "restSec": 0,
+          "keyPoints": [
+            "热身5分钟后再提速",
+            "坡度3-8%快走，心率维持在最大心率的60-75%",
+            "抬头挺胸，不要扶着扶手走",
+            "结束后5分钟慢速冷却"
+          ],
+          "cautions": [
+            "不要边跑边看手机",
+            "扶手支撑会大幅降低消耗",
+            "膝盖不适改为椭圆机或划船机"
+          ],
+          "video": {
+            "bvid": "",
+            "title": "",
+            "page": 1,
+            "verified": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "elliptical",
+      "name": "椭圆机",
+      "aliases": [
+        "太空漫步机",
+        "Elliptical"
+      ],
+      "muscleGroups": [
+        "cardio"
+      ],
+      "secondaryGroups": [
+        "legs"
+      ],
+      "tags": [
+        "cardio"
+      ],
+      "recognitionHints": [
+        "踏板沿椭圆轨迹滑动的有氧器械，常带摆臂杆"
+      ],
+      "notes": [
+        "对膝盖冲击小，适合大体重和膝不适人群"
+      ],
+      "movements": [
+        {
+          "id": "elliptical-mv",
+          "name": "椭圆机有氧",
+          "sets": "1",
+          "reps": "25-45分钟",
+          "restSec": 0,
+          "keyPoints": [
+            "全脚掌踩踏板，不踮脚尖",
+            "推拉摆臂杆让上肢也参与",
+            "阻力调至心率达标而非纯靠频率"
+          ],
+          "cautions": [
+            "膝盖不要过度伸直锁死",
+            "重心不要向后仰"
+          ],
+          "video": {
+            "bvid": "",
+            "title": "",
+            "page": 1,
+            "verified": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "rowing-machine",
+      "name": "划船机",
+      "aliases": [
+        "赛艇机",
+        "Rowing Machine"
+      ],
+      "muscleGroups": [
+        "cardio",
+        "back"
+      ],
+      "secondaryGroups": [
+        "legs",
+        "core"
+      ],
+      "tags": [
+        "cardio",
+        "compound"
+      ],
+      "recognitionHints": [
+        "滑轨座椅+拉力手柄+风阻/水阻飞轮"
+      ],
+      "notes": [
+        "全身85%肌肉参与的高效有氧"
+      ],
+      "movements": [
+        {
+          "id": "rowing-mv",
+          "name": "划船机",
+          "sets": "1",
+          "reps": "20-30分钟",
+          "restSec": 0,
+          "keyPoints": [
+            "发力顺序：先蹬腿→再后仰→最后拉臂",
+            "回程顺序相反：伸臂→立身→屈腿",
+            "拉到上腹位置，肘贴近身体",
+            "节奏稳定，腿部发力占六成"
+          ],
+          "cautions": [
+            "先用手臂猛拉是最大错误，容易伤腰",
+            "全程保持背部平直"
+          ],
+          "video": {
+            "bvid": "BV1nR4y1z7Mo",
+            "title": "划船机的正确锻炼方法",
+            "page": 1,
+            "verified": true
+          }
+        }
+      ]
+    }
+  ]
+}

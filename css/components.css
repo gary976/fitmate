@@ -1,0 +1,137 @@
+/* ---------- 卡片 ---------- */
+.card { background: var(--card); border-radius: var(--radius); padding: 14px; box-shadow: var(--shadow); margin-bottom: var(--gap); }
+.card h2 { margin-bottom: 8px; }
+.section-title { font-size: 14px; font-weight: 600; color: var(--text-2); margin: 16px 4px 8px; }
+
+/* ---------- 按钮 ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  border: none; border-radius: var(--radius-sm); padding: 12px 16px;
+  font-size: 15px; font-weight: 600; cursor: pointer; width: 100%;
+  background: var(--primary); color: #fff;
+}
+.btn:active { opacity: 0.85; }
+.btn.ghost { background: var(--card); color: var(--text); border: 1px solid var(--line); }
+.btn.accent { background: var(--accent); }
+.btn.small { width: auto; padding: 8px 14px; font-size: 13px; }
+.btn:disabled { opacity: 0.5; }
+.btn-row { display: flex; gap: 10px; }
+.btn-row .btn { flex: 1; }
+
+/* ---------- chips ---------- */
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  border: 1px solid var(--line); background: var(--card); color: var(--text-2);
+  border-radius: 999px; padding: 8px 16px; font-size: 14px; cursor: pointer;
+}
+.chip.on { background: var(--primary-soft); color: var(--primary); border-color: var(--primary); font-weight: 600; }
+
+/* ---------- TabBar ---------- */
+#tabbar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 50;
+  display: flex; height: calc(var(--tabbar-h) + env(safe-area-inset-bottom));
+  padding-bottom: env(safe-area-inset-bottom);
+  background: var(--card); border-top: 1px solid var(--line);
+}
+#tabbar button {
+  flex: 1; border: none; background: none; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 2px;
+  font-size: 11px; color: var(--text-3); cursor: pointer;
+}
+#tabbar button svg { width: 23px; height: 23px; }
+#tabbar button.active { color: var(--primary); font-weight: 600; }
+#tabbar button.hidden-tab { display: none; }
+
+/* ---------- 列表 ---------- */
+.list-item { display: flex; align-items: center; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.list-item:last-child { border-bottom: none; }
+.list-item .grow { flex: 1; min-width: 0; }
+.list-item .title { font-weight: 600; }
+.list-item .sub { font-size: 12px; color: var(--text-3); }
+.tag { display: inline-block; font-size: 11px; border-radius: 6px; padding: 2px 8px; background: var(--accent-soft); color: var(--accent); margin-right: 4px; }
+.tag.p { background: var(--primary-soft); color: var(--primary); }
+.tag.ok { background: var(--ok-soft); color: var(--ok); }
+.tag.warn { background: var(--warn-soft); color: var(--warn); }
+
+/* ---------- 肌群图标圈 ---------- */
+.mg-badge {
+  width: 42px; height: 42px; border-radius: 12px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 20px; background: var(--accent-soft);
+}
+
+/* ---------- 视频卡 ---------- */
+.video-card { margin-top: 10px; border-radius: var(--radius-sm); overflow: hidden; background: #000; }
+.video-card .video-cover {
+  position: relative; height: 46vw; max-height: 220px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 6px;
+  background: linear-gradient(135deg, #1b2436, #101828); color: #cfe0ff;
+}
+.video-card .play { width: 46px; height: 46px; border-radius: 50%; background: rgba(255,255,255,0.16); display: flex; align-items: center; justify-content: center; font-size: 20px; }
+.video-card iframe { width: 100%; aspect-ratio: 16/9; border: 0; display: block; }
+.video-card .v-title { font-size: 12px; padding: 0 10px 8px; color: #9db4d8; text-align: center; }
+.video-empty { margin-top: 10px; border: 1px dashed var(--line); border-radius: var(--radius-sm); padding: 12px; text-align: center; color: var(--text-3); font-size: 13px; }
+
+/* ---------- 动作块 ---------- */
+.mv-card { background: var(--card); border-radius: var(--radius); padding: 14px; box-shadow: var(--shadow); margin-bottom: var(--gap); }
+.mv-head { display: flex; align-items: flex-start; gap: 10px; }
+.mv-order { width: 26px; height: 26px; border-radius: 50%; background: var(--primary); color: #fff; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px; }
+.mv-head .grow { flex: 1; }
+.mv-meta { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0 4px; }
+.mv-done { border: 1px solid var(--line); background: none; border-radius: 20px; padding: 6px 12px; font-size: 12px; color: var(--text-2); }
+.mv-done.on { background: var(--ok-soft); color: var(--ok); border-color: var(--ok); }
+.kp { margin: 6px 0 0; padding-left: 18px; font-size: 13px; color: var(--text-2); }
+.kp li { margin: 2px 0; }
+
+/* ---------- 聊天 ---------- */
+.chat-wrap { display: flex; flex-direction: column; min-height: calc(100vh - var(--tabbar-h) - env(safe-area-inset-bottom)); }
+.chat-list { flex: 1; padding: 14px 12px 8px; display: flex; flex-direction: column; gap: 10px; }
+.bubble { max-width: 84%; padding: 10px 13px; border-radius: 16px; font-size: 14px; white-space: pre-wrap; word-break: break-word; }
+.bubble.me { align-self: flex-end; background: var(--primary); color: #fff; border-bottom-right-radius: 4px; }
+.bubble.ai { align-self: flex-start; background: var(--card); box-shadow: var(--shadow); border-bottom-left-radius: 4px; }
+.bubble.ai.err { background: var(--warn-soft); color: var(--warn); }
+.chat-bar { position: sticky; bottom: 0; display: flex; gap: 8px; padding: 10px 12px calc(env(safe-area-inset-bottom) + 10px); background: var(--bg); }
+.chat-bar textarea { flex: 1; resize: none; height: 44px; border-radius: 22px; padding: 11px 16px; }
+.chat-bar .send, .chat-bar .attach { width: 44px; height: 44px; border-radius: 50%; border: none; flex-shrink: 0; font-size: 18px; }
+.chat-bar .send { background: var(--primary); color: #fff; }
+.chat-bar .attach { background: var(--card); border: 1px solid var(--line); }
+.chat-thumb { width: 64px; height: 64px; border-radius: 10px; object-fit: cover; }
+
+/* ---------- 汇总环 ---------- */
+.ring-row { display: flex; align-items: center; gap: 14px; }
+.ring { width: 96px; height: 96px; flex-shrink: 0; }
+.ring text { font-size: 15px; font-weight: 700; }
+.nutri-grid { flex: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 8px 12px; }
+.nutri-cell .v { font-size: 17px; font-weight: 700; }
+.nutri-cell .k { font-size: 11px; color: var(--text-3); }
+
+/* ---------- 底部弹层 ---------- */
+.sheet-mask { position: fixed; inset: 0; background: var(--mask); z-index: 90; display: flex; align-items: flex-end; }
+.sheet { background: var(--bg); width: 100%; border-radius: 20px 20px 0 0; padding: 18px 16px calc(env(safe-area-inset-bottom) + 18px); max-height: 86vh; overflow-y: auto; }
+.sheet .grab { width: 40px; height: 4px; border-radius: 2px; background: var(--line); margin: 0 auto 14px; }
+
+/* ---------- toast ---------- */
+#toast { position: fixed; left: 50%; bottom: 30%; transform: translateX(-50%); background: rgba(15,23,42,0.85); color: #fff; padding: 10px 18px; border-radius: 10px; font-size: 13px; z-index: 99; max-width: 80vw; text-align: center; }
+.spinner { width: 18px; height: 18px; border: 2px solid var(--line); border-top-color: var(--primary); border-radius: 50%; animation: spin 0.8s linear infinite; display: inline-block; vertical-align: middle; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ---------- 表单行 ---------- */
+.form-row { margin-bottom: 12px; }
+.form-row label { display: block; font-size: 13px; color: var(--text-2); margin-bottom: 5px; }
+.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+
+/* ---------- 空状态 ---------- */
+.empty { text-align: center; color: var(--text-3); padding: 40px 20px; font-size: 14px; }
+.empty .big { font-size: 40px; margin-bottom: 10px; }
+
+/* ---------- 首页快捷卡 ---------- */
+.quick-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--gap); }
+.quick-card { background: var(--card); border-radius: var(--radius); padding: 18px 14px; box-shadow: var(--shadow); text-align: left; border: none; font-family: inherit; cursor: pointer; }
+.quick-card .ic { font-size: 26px; }
+.quick-card .t { font-weight: 700; margin-top: 6px; }
+.quick-card .d { font-size: 12px; color: var(--text-3); margin-top: 2px; }
+
+/* ---------- 图片识别结果 ---------- */
+.rec-photo { width: 100%; border-radius: var(--radius); margin-bottom: 12px; }
+.conf-bar { height: 6px; border-radius: 3px; background: var(--line); overflow: hidden; margin-top: 6px; }
+.conf-bar i { display: block; height: 100%; background: var(--ok); }
