@@ -13,7 +13,7 @@ with zipfile.ZipFile(out, 'w', zipfile.ZIP_DEFLATED) as z:
         p = os.path.join(here, name)
         zi = zipfile.ZipInfo(name, date_time=now)
         zi.create_system = 3  # Unix，否则 Windows 下生成的 zip 可能被服务端拒绝
-        zi.external_attr = (0o755 << 16) | 0o20  # rwxr-xr-x + 普通文件
+        zi.external_attr = 0o755 << 16  # rwxr-xr-x；低 16 位 DOS 属性必须为 0（0x10 是目录标志，会致解压失败）
         zi.compress_type = zipfile.ZIP_DEFLATED
         with open(p, 'rb') as f:
             z.writestr(zi, f.read())
