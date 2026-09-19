@@ -41,3 +41,9 @@ export async function render() {
 }
 
 window.addEventListener('hashchange', render);
+
+// 底部 TabBar 点击导航
+document.getElementById('tabbar').addEventListener('click', e => {
+  const b = e.target.closest('button');
+  if (b && b.dataset.tab) go('/' + b.dataset.tab);
+});

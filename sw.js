@@ -1,5 +1,5 @@
 // FitMate Service Worker：precache 应用壳，离线可用（视频与 AI 需联网）
-const VERSION = 'fitmate-v3';
+const VERSION = 'fitmate-v4';
 const ASSETS = [
   './', './index.html', './manifest.webmanifest',
   './css/tokens.css', './css/base.css', './css/components.css',
